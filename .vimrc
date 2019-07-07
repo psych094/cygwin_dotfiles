@@ -8,7 +8,9 @@ set tabstop=4	"tab size in editor
 set softtabstop=4	"tab size while editing
 "set expandtab	"replaces tab character with spaces
 set showcmd	"show last entered command
-set cursorline	"highlight current line of current
+"set cursorline	"highlight current line of current
+"toggle cursor line when entering/leaving insert mode
+:autocmd InsertEnter,InsertLeave * set cursorline!
 filetype indent on	"load indent files based on filetypes
 set wildmenu	"autocomplete for command
 "set lazyredraw	"redraw the screen only when needed
