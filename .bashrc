@@ -45,6 +45,9 @@
 # When changing directory small typos can be ignored by bash
 # for example, cd /vr/lgo/apaache would find /var/log/apache
 # shopt -s cdspell
+#
+# Vim mode in bash
+ set -o vi
 
 # Programmable completion enhancements are enabled via
 # /etc/profile.d/bash_completion.sh when the package bash_completetion
