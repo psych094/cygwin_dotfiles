@@ -11,6 +11,8 @@ set showcmd	"show last entered command
 "set cursorline	"highlight current line of current
 "toggle cursor line when entering/leaving insert mode
 :autocmd InsertEnter,InsertLeave * set cursorline!
+"toggle relative number line when entering/leaving insert mode
+:autocmd InsertEnter,InsertLeave * set relativenumber!
 filetype indent on	"load indent files based on filetypes
 set wildmenu	"autocomplete for command
 "set lazyredraw	"redraw the screen only when needed
