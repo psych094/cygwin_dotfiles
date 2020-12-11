@@ -43,3 +43,9 @@ fi
 #   INFOPATH="${HOME}/info:${INFOPATH}"
 # fi
 
+# Source users bash_aliases if it exists
+if [ -f "${HOME}/.bash_aliases" ]; then
+	source "${HOME}/.bash_aliases"
+fi
+
+
